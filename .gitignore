@@ -1,0 +1,70 @@
+/node_modules
+
+#  API GITIGNORE
+
+# compiled output
+/packages/api/dist
+/packages/api/node_modules
+
+# Logs
+/packages/api/logs
+/packages/api/*.log
+/packages/api/npm-debug.log*
+/packages/api/pnpm-debug.log*
+/packages/api/yarn-debug.log*
+/packages/api/yarn-error.log*
+/packages/api/lerna-debug.log*
+
+# OS
+/packages/api/.DS_Store
+
+# Tests
+/packages/api/coverage
+/packages/api/.nyc_output
+
+# IDEs and editors
+/packages/api/.idea
+/packages/api/.project
+/packages/api/.classpath
+/packages/api/.c9/
+/packages/api/*.launch
+/packages/api/.settings/
+/packages/api/*.sublime-workspace
+
+# IDE - VSCode
+/packages/api/.vscode/*
+/packages/api/!.vscode/settings.json
+/packages/api/!.vscode/tasks.json
+/packages/api/!.vscode/launch.json
+/packages/api/!.vscode/extensions.json
+
+#  WEB GITIGNORE
+
+# Logs
+/packages/web/logs
+/packages/web/*.log
+/packages/web/npm-debug.log*
+/packages/web/yarn-debug.log*
+/packages/web/yarn-error.log*
+/packages/web/pnpm-debug.log*
+/packages/web/lerna-debug.log*
+
+/packages/web/node_modules
+/packages/web/.DS_Store
+/packages/web/dist
+/packages/web/dist-ssr
+/packages/web/coverage
+/packages/web/*.local
+
+/packages/web//cypress/videos/
+/packages/web//cypress/screenshots/
+
+# Editor directories and files
+/packages/web/.vscode/*
+/packages/web/!.vscode/extensions.json
+/packages/web/.idea
+/packages/web/*.suo
+/packages/web/*.ntvs*
+/packages/web/*.njsproj
+/packages/web/*.sln
+/packages/web/*.sw?

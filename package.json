@@ -1,0 +1,16 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "api": "yarn workspace api",
+    "web": "yarn workspace web",
+    "build": "concurrently -n \"api,web\" \"yarn api build\" \"yarn web build\"",
+    "start": "concurrently -k \"yarn api start:dev\" \"yarn web dev\"",
+    "bootstrap": "lerna bootstrap"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "lerna": "^4.0.0"
+  }
+}
